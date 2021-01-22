@@ -1,0 +1,5 @@
+vhdl xil_defaultlib  \
+"../../../bd/RootDesign/ip/RootDesign_axi_dma_0_0/sim/RootDesign_axi_dma_0_0.vhd" \
+"../../../bd/RootDesign/ip/RootDesign_rst_ps7_0_100M_0/sim/RootDesign_rst_ps7_0_100M_0.vhd" \
+
+nosort

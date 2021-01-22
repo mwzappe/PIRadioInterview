@@ -1,0 +1,3 @@
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "c:/users/zapma/piradiointerview/ip_repo/SimpleFilter_1.0/hdl/FilterCoreTest.sv" into library work
+INFO: [VRFC 10-311] analyzing module FilterCoreTest
+WARNING: [VRFC 10-965] invalid size of integer constant literal [c:/users/zapma/piradiointerview/ip_repo/SimpleFilter_1.0/hdl/FilterCoreTest.sv:55]

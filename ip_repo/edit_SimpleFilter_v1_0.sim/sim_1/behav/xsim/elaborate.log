@@ -1,0 +1,17 @@
+Vivado Simulator 2019.2
+Copyright 1986-1999, 2001-2019 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2019.2/bin/unwrapped/win64.o/xelab.exe -wto dcfb36755c174e8691b87a6d77a598fb --incr --debug typical --relax --mt 2 -L xil_defaultlib -L work -L unisims_ver -L unimacro_ver -L secureip --snapshot FilterCoreTest_behav work.FilterCoreTest work.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+WARNING: [VRFC 10-5021] port 's00_axis_tstrb' is not connected on this instance [c:/users/zapma/piradiointerview/ip_repo/SimpleFilter_1.0/hdl/FilterCoreTest.sv:59]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module work.SimpleFilter_v1_0_S00_AXI_defaul...
+Compiling module xil_defaultlib.FilterCore
+Compiling module work.SimpleFilter_v1_0
+Compiling module work.FilterCoreTest
+Compiling module work.glbl
+Built simulation snapshot FilterCoreTest_behav

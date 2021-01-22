@@ -1,0 +1,16 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../SimpleFilter_1.0/hdl/FilterCore.v" \
+
+verilog work  \
+"../../../../SimpleFilter_1.0/hdl/SimpleFilter_v1_0.v" \
+"../../../../SimpleFilter_1.0/hdl/SimpleFilter_v1_0_S00_AXI.v" \
+
+sv work  \
+"../../../../SimpleFilter_1.0/hdl/FilterCoreTest.sv" \
+
+# compile glbl module
+verilog work "glbl.v"
+
+# Do not sort compile order
+nosort
